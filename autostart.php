@@ -7,7 +7,8 @@ Yii::app()->moduleManager->register(array(
         'application.modules.chat.*',
     ),
     'events' => array(
-        array('class' => 'TopMenuWidget', 'event' => 'onInit', 'callback' => array('ChatEvents', 'onTopMenuInit')),
+        //array('class' => 'TopMenuWidget', 'event' => 'onInit', 'callback' => array('ChatEvents', 'onTopMenuInit')),
+        array('class' => 'DashboardSidebarWidget', 'event' => 'onInit', 'callback' => array('ChatModule', 'onSidebarInit')),
     ),
 ));
 ?>

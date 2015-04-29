@@ -1,6 +1,7 @@
 <?php
 
 class ChatEvents{
+	
     public static function onTopMenuInit($event){
         $event->sender->addItem(array(
             'label' => 'Chat Module',
@@ -9,4 +10,7 @@ class ChatEvents{
             'isActive' => (Yii::app()->controller->module && Yii::app()->controller->module->id == 'chat'),
         ));
     }
+	
+
+	
 }
