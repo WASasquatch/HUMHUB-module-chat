@@ -1,0 +1,13 @@
+{
+    "id": "chat",
+    "name": "Live Chat - let's Chat live ! ",
+    "description": "We using the chatJs framwork to chat in humhub",
+    "keywords": [
+        "core"
+    ],
+    "version": "1.0",
+    "humhub": {
+        "minVersion": "0.8"
+    },
+    "screenshots": ["assets/screen1.jpg","assets/screen2.jpg"]
+}
