@@ -14,7 +14,7 @@
                 // text displayed when there's no other users in the room
                 emptyRoomText: "There's no one around here. You can still open a session in another browser and chat with yourself :)",
                 // the adapter you are using
-                chatJsContentPath: 'assets/chatjs/',
+                chatJsContentPath: '/basics/chatjs/',
                 adapter: new DemoAdapter()
             });
         });
